@@ -36,8 +36,8 @@ const bigInt = 2425n;
 const heros = ["spiderman", "iron man", "thor", "Hulk"];
 // console.log(typeof heros);
 
-console.log("heros type is " + typeof heros);
-console.log(heros);
+// console.log("heros type is " + typeof heros);
+// console.log(heros);
 
 // ->Objects
 
@@ -46,11 +46,34 @@ const obj = {
   age: 21,
 };
 
-console.log(obj);
-console.log(typeof obj);
+// console.log(obj);
+// console.log(typeof obj);
 
 // ->Functions
 const myFunc = function () {
-  console.log("hello");
+  //   console.log("hello");
 };
 myFunc();
+
+// ************************************************************************
+
+// Stack (Primitive) || Heap (Non-Primitive)
+
+// ==>Stack<==
+let myname = "aniket";
+let anotherName = "ankit";
+console.log(myname);
+console.log(anotherName);
+
+// ==>Heap<==
+let userOne = {
+  name: "aniketaurkon.com",
+  age: 21,
+};
+
+let userTwo = userOne;
+userTwo.name = "notaniket";
+userTwo.age = 55;
+
+console.log(userOne);
+console.log(userTwo);
