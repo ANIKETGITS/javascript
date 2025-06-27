@@ -1,0 +1,1 @@
+// Function Is Nothing But A Bloc Of Code Can Be Called Any Where Any Time Runtime
