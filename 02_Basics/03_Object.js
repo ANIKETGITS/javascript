@@ -41,12 +41,14 @@ obj.Email = "aniket.@microsoft.com";
 // console.log(obj);
 
 obj.greatings = function () {
-  console.log("hello!");
+  // console.log("hello!");
 };
 console.log(obj.greatings());
 
 //How to Access Inner Properties Of Object
 obj.greatings2 = function () {
-  console.log(`hello js User,${this.name}`);
+  // console.log(`hello js User,${this.name}`);
 };
-console.log(obj.greatings2());
+// console.log(obj.greatings2());
+
+
